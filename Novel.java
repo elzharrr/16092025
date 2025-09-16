@@ -8,14 +8,6 @@ public class Novel {
     String genre;
     Double price;
 
-    public Novel() {
-        ISBN = 4714;
-        title = "Berkah Pagi";
-        author = "eel";
-        genre = "Slice of Life";
-        price = 50000.0;
-    }
-
     //construcktor parameter
     public Novel(int I, String a, String g, String t, double p) {
         ISBN = I;
